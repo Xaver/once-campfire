@@ -1,6 +1,7 @@
 require_relative "boot"
 
 require "rails/all"
+require_relative "../lib/fetch_secret_extension"
 
 Bundler.require(*Rails.groups)
 
