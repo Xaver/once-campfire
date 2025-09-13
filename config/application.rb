@@ -7,6 +7,7 @@ Bundler.require(*Rails.groups)
 
 module Campfire
   class Application < Rails::Application
+    include FetchSecretExtension
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.1
 
